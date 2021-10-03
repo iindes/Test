@@ -1,0 +1,55 @@
+#-- NameError: name 'cv2' is not defined
+
+!pip install opencv-python
+
+Collecting opencv-python
+  Downloading opencv_python-4.5.3.56-cp37-cp37m-win_amd64.whl (34.9 MB)
+Requirement already satisfied: numpy>=1.14.5 in c:\programdata\anaconda3\lib\site-packages (from opencv-python) (1.18.1)
+Installing collected packages: opencv-python
+Successfully installed opencv-python-4.5.3.56
+
+#-- ImShow
+# https://opencv-python.readthedocs.io/en/latest/doc/01.imageStart/imageStart.html
+
+import cv2
+
+fname = 'lena.jpg'
+
+original = cv2.imread(fname, cv2.IMREAD_COLOR)
+gray = cv2.imread(fname, cv2.IMREAD_GRAYSCALE)
+unchange = cv2.imread(fname, cv2.IMREAD_UNCHANGED)
+
+cv2.imshow('Original', original)
+cv2.imshow('Gray', gray)
+cv2.imshow('Unchange', unchange)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+#-- Check Version
+cv2.__version__
+
+
+#-- No module named 'pywhatkit'
+pip install pywhatkit
+!pip install pywhatkit
+
+#-- Timestamp for File Name
+# import library: time
+import time
+now = time.localtime() # used to add timestamp to filename
+
+# file name w/ date & time
+output_path = './output/' 
+file_name = 'MediInst_chartBy_Hstp'
+
+# fill leading zero: zfill
+rel_path = output_path + file_name + str(now.tm_mon).zfill(2) + str(now.tm_mday).zfill(2) + str(now.tm_hour).zfill(2) + str(now.tm_min).zfill(2) + '.html'
+print(rel_path)
+
+
+#-- GitHub인증
+https://kinggrmoon.tistory.com/55	On Mac
+
+
+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
