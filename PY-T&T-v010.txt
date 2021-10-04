@@ -51,5 +51,5 @@ print(rel_path)
 #-- GitHub인증
 https://kinggrmoon.tistory.com/55	On Mac
 
-
+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	21-10-04
 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
