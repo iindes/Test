@@ -1,0 +1,21 @@
+jupyter nbconvert --to script 01-namu-wiki-text-analysis.ipynb
+
+
+App Name	crwlBrand
+App ID	22298763
+
+API Key	GyhYUuPz1n7G8xJinc6oS669Q
+API Key Secret	zYUmczSjM9r4yjUT6TKOFVNoAvjn84uZ8p2FtJGPYeTpAL83RB
+Bearer Token	AAAAAAAAAAAAAAAAAAAAAItAVAEAAAAAi6%2Bjnr45FFuuKXtXuNqOxjcO79s%3D3LgFRDdwVeRWu40QDN9iwAuB0Q0sb1WQuZyeHDT9rlaXt7ejtk
+
+
+Access Token	1449194998998593543-f5yvwnxfwwAQj4YN35Ubgr1nJnUpk2
+Access Token Secret	iMbxkqQfnBkbrzKbPVbtT3peJpsWmxIS2UBnF3LbRKgSM
+
+For @tw54841675
+
+# 발급 완료된 키를 {your_key} 대신 입력합니다.
+CONSUMER_KEY = "GyhYUuPz1n7G8xJinc6oS669Q"
+CONSUMER_SECRET = "zYUmczSjM9r4yjUT6TKOFVNoAvjn84uZ8p2FtJGPYeTpAL83RB"
+ACCESS_TOKEN_KEY = "1449194998998593543-f5yvwnxfwwAQj4YN35Ubgr1nJnUpk2"
+ACCESS_TOKEN_SECRET = "iMbxkqQfnBkbrzKbPVbtT3peJpsWmxIS2UBnF3LbRKgSM"
